@@ -93,7 +93,7 @@ Dashboard interativo com dados agrícolas dos **27 estados brasileiros**, tema n
 ## Vamos conversar?
 
 <p align="center">
-  <a href="https:https://www.linkedin.com/in/ruan-francelino-3262a334b/?isSelfProfile=true"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="https:https:https://www.linkedin.com/in/ruan-francelino-3262a334b/?isSelfProfile=true"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
   <a href="mailto:ruanfrancelino47@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
 </p>
 

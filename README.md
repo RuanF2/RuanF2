@@ -1,57 +1,56 @@
-<h1 align="center">Olá, eu sou o Ruan</h1>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Ruan&fontSize=70&animation=fadeIn&fontAlignY=35" width="100%" />
 
 <p align="center">
-  Estudante de Inteligência Artificial · Desenvolvedor em formação · Teresina, PI 🇧🇷
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=36BCF7&center=true&vCenter=true&width=650&lines=Estudante+de+IA+🤖;Dev+em+formação+💻;Construindo+sistemas+internos+🎫;Automação+com+Apps+Script+⚙️;Sempre+aprendendo+🚀" />
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
+  Tecnólogo em Inteligência Artificial · Teresina, PI 🇧🇷
 </p>
 
 ---
 
 ## Sobre mim
 
--  Cursando **Tecnólogo em Inteligência Artificial** na **Faculdade PIT** (Piauí Instituto de Tecnologia)
--  Atuo com **automação e suporte técnico**: scripts em Google Apps Script, integração com APIs, análise de logs, geração de relatórios e documentação interna
--  Meu objetivo é ingressar no mercado de **desenvolvimento de software**
--  Aprendo na prática: escrevo o código, erro, reviso e evoluo
--  Estudando agora: **Engenharia de Dados** (Databricks, camadas bronze/silver) **Machine Learning**  **Redes Neurais** 
--  Próximos passos: **React** e **Java**
-
----
-
-## Tecnologias
-
-**Linguagens**
-
-![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black)
-![HTML5](https://img.shields.io/badge/-HTML5-E34F26?logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/-CSS3-1572B6?logo=css3&logoColor=white)
-![SQL](https://img.shields.io/badge/-SQL-4479A1?logo=postgresql&logoColor=white)
-
-**Back-end e dados**
-
-![Node.js](https://img.shields.io/badge/-Node.js-339933?logo=nodedotjs&logoColor=white)
-![Express](https://img.shields.io/badge/-Express-000000?logo=express&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?logo=postgresql&logoColor=white)
-![Databricks](https://img.shields.io/badge/-Databricks-FF3621?logo=databricks&logoColor=white)
-
-**Front-end e outros**
-
-![Next.js](https://img.shields.io/badge/-Next.js-000000?logo=nextdotjs&logoColor=white)
-![Chart.js](https://img.shields.io/badge/-Chart.js-FF6384?logo=chartdotjs&logoColor=white)
-![Google Apps Script](https://img.shields.io/badge/-Apps%20Script-4285F4?logo=google&logoColor=white)
-![Git](https://img.shields.io/badge/-Git-F05032?logo=git&logoColor=white)
-![Arduino](https://img.shields.io/badge/-Arduino-00979D?logo=arduino&logoColor=white)
+- Cursando **Tecnólogo em Inteligência Artificial** na **Faculdade PIT** (Piauí Instituto de Tecnologia)
+- Atuo com **automação e suporte técnico**: scripts em Google Apps Script, integração com APIs, análise de logs, geração de relatórios e documentação interna
+- Meu objetivo é ingressar no mercado de **desenvolvimento de software**
+- Aprendo na prática: escrevo o código, erro, reviso e evoluo
+- Estudando agora: **Engenharia de Dados** (Databricks, camadas bronze/silver) e **Machine Learning**
+- Próximos passos: **React** e **Java**
 
 ---
 
 ## Projetos em destaque
+
+### Sistema de Gestão de Chamados · *projeto profissional (código privado)*
+Web App que desenvolvi do zero para a empresa onde trabalho, para organizar a abertura, o atendimento e a aprovação de solicitações de correção e suporte, substituindo trocas de e-mail por um fluxo rastreável. O código é de propriedade da empresa e não é público.
+
+```mermaid
+flowchart LR
+    A[Pendente] -->|gestor aceita| B[Em Execução]
+    B -->|gestor resolve| C[Resolvido pelo Gestor]
+    C -->|solicitante aprova| D[Concluído]
+    C -->|solicitante reprova + motivo| B
+```
+
+**O que o sistema faz**
+- **Perfis de acesso**: ações exclusivas de gestor e aprovação restrita a quem abriu o chamado
+- **Fila de atendimento por ordem de chegada (FIFO)**
+- **Temporizadores em tempo real**: tempo em aberto e tempo de atendimento
+- **Ciclo de aprovação com histórico**: aprovação ou reprovação com motivo e imagens anexadas
+- **Alertas para o gestor** a cada chamado novo ou reprovação (som, notificação do navegador e título da aba)
+- **Anexos de imagem** armazenados no Google Drive
+- **Painel do gestor** para administrar sistemas/módulos e limpar chamados
+
+**Desafios que resolvi**
+- Evitar que dois usuários gravem ao mesmo tempo e sobrescrevam os dados um do outro (controle de concorrência)
+- Validar regras de negócio no servidor, e não só na interface
+- Separar o armazenamento de anexos em um projeto à parte, para o sistema principal não pedir permissões extras aos usuários
+
+`Google Apps Script` `JavaScript` `HTML/CSS` `Google Drive` `Web Audio API` `Notification API`
+
+---
 
 ### [Cofre de Senhas](https://github.com/RuanF2/cofre-de-senhas)
 Gerenciador de senhas completo, com autenticação **JWT**, login com **Google OAuth** (Passport.js), criptografia **AES-256-GCM** e banco **PostgreSQL**.
@@ -64,28 +63,38 @@ Rede social full-stack com back-end em **Node.js/Express**, **PostgreSQL** e fro
 ### AgroDash Brasil
 Dashboard interativo com dados agrícolas dos **27 estados brasileiros**, tema neon e partículas animadas.
 `JavaScript` `Chart.js` `HTML/CSS`
-
 ---
 
 ## O que faço no dia a dia
 
-- Automação de processos com **Google Apps Script** (web apps, integrações e rotinas)
+- Desenvolvimento de **sistemas internos** com Google Apps Script (como o sistema de chamados acima), com controle de acesso, concorrência e integrações
 - Integração com **APIs REST** (paginação, filtros por data, mapeamento de dados)
 - Análise de logs e geração de relatórios
 - Documentação técnica e fluxogramas de processos
 
 ---
 
-## Vamos conversar?
+## Tecnologias
 
-<p>
-  <a href="https:https://www.linkedin.com/in/ruan-francelino-3262a334b/?isSelfProfile=true"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="mailto:ruanfrancelino47@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=py,js,nodejs,express,postgres,flask,nextjs,prisma,html,css,git,arduino&perline=12" />
 </p>
 
 ---
 
+## Atividade
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=RuanF2&theme=tokyo-night&hide_border=true&area=true" width="100%" />
+
+<img src="https://raw.githubusercontent.com/RuanF2/RuanF2/output/snake.svg" width="100%" />
+
+---
+
+## Vamos conversar?
+
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=RuanF2&show_icons=true&theme=tokyonight&hide_border=true" height="160" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=RuanF2&layout=compact&theme=tokyonight&hide_border=true" height="160" />
+  <a href="https:https://www.linkedin.com/in/ruan-francelino-3262a334b/?isSelfProfile=true"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="mailto:ruanfrancelino47@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
 </p>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=footer" width="100%" />

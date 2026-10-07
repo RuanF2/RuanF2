@@ -77,16 +77,8 @@ Dashboard interativo com dados agrícolas dos **27 estados brasileiros**, tema n
 ## Tecnologias
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=py,js,nodejs,express,postgres,flask,nextjs,prisma,html,css,git,arduino&perline=12" />
+  <img src="https://skillicons.dev/icons?i=py,js,nodejs,express,postgres,nextjs,html,css,git,arduino&perline=12" />
 </p>
-
----
-
-## Atividade
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=RuanF2&theme=tokyo-night&hide_border=true&area=true" width="100%" />
-
-<img src="https://raw.githubusercontent.com/RuanF2/RuanF2/output/snake.svg" width="100%" />
 
 ---
 

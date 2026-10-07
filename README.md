@@ -1,7 +1,7 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Ruan&fontSize=70&animation=fadeIn&fontAlignY=35" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a192f,100:1e3a8a&height=200&section=header&text=Ruan&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=35" width="100%" />
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=36BCF7&center=true&vCenter=true&width=650&lines=Estudante+de+IA+🤖;Dev+em+formação+💻;Construindo+sistemas+internos+🎫;Automação+com+Apps+Script+⚙️;Sempre+aprendendo+🚀" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=3B82F6&center=true&vCenter=true&repeat=true&width=650&lines=Estudante+de+IA;Dev+em+formacao;Construindo+sistemas+internos;Automacao+com+Apps+Script;Sempre+aprendendo" />
 </p>
 
 <p align="center">
@@ -89,3 +89,5 @@ Dashboard interativo com dados agrícolas dos **27 estados brasileiros**, tema n
 <img src="https://raw.githubusercontent.com/RuanF2/RuanF2/output/snake.svg" width="100%" />
 
 ---
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a192f,100:1e3a8a&height=120&section=footer" width="100%" />
